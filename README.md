@@ -80,7 +80,7 @@ The three layers worked because they were genuinely uncorrelated alpha sources: 
 
 ---
 
-## Round 4 Algorithmic
+## Round 4 Algorithmic Trading
 
 **Profit: +75,317 XIRECs**
 
@@ -107,7 +107,7 @@ We also identified a structural vol-selling opportunity in OTM options (K=5300-5
 
 ---
 
-## Round 4 Manual
+## Round 4 Manual Trading
 
 **Profit: -28,085.85 XIRECs**
 
@@ -136,7 +136,7 @@ Our submitted strategy had a modeled win rate of **about 70%**, an expected valu
 
 ---
 
-## Round 5 Algorithmic
+## Round 5 Algorithmic Trading
 
 **Profit: -5,298 XIRECs (only losing round)**
 
@@ -163,7 +163,7 @@ The pair trading relied on stable cross-category statistical relationships that 
 
 ---
 
-## Round 5 Manual
+## Round 5 Manual Trading
 
 **Profit: +98,397 XIRECs**
 
