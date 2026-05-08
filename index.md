@@ -165,6 +165,8 @@ The pair trading relied on stable cross-category statistical relationships that 
 
 ## Round 5 Manual
 
+**Profit: +98,397 XIRECs**
+
 The objective of the final manual trading round was to maximize net profit by strategically allocating a `1,000,000` XIREC budget across the Ignith market using signals from the Ashflow Alpha news source. Analysis of the transaction data revealed a quadratic cost structure in which the total fee for an allocation fraction `x` was given by `C = Bx^2`, where `B` was the total budget, so net profit took the form `B(xr - x^2)` for expected return `r`. This meant the optimal allocation for each position was `x = r/2`, exactly half the expected return. We estimated the expected returns from the supply and demand shocks described in the articles and sized each position accordingly.
 
 ![Round 5 manual results](images/Round5_Manual_Results.png)
