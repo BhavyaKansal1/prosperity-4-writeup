@@ -1,24 +1,37 @@
-# IMC Prosperity 4: A Top-3% Retrospective
+# IMC Prosperity 4: Our Approach and Results
 
-**Result:** 544 / 18,000+ globally · 143 in the US (top 3%)
+**Result:** 544 / 18,803 globally · 143 in the US (top 3%)
 
-**Team:** Bhavya Kansal · Shridhar Mehendale · Armaan Sharma , Anshul Mistry
+![Prosperity leaderboard](images/Prosperity_Leaderboard.png)
 
----
+**Team:** Bhavya Kansal · Shridhar Mehendale · Armaan Sharma · Anshul Mistry
+
+
+<!-- ---
 
 ## Why this writeup exists
 
 Three weeks of IMC Prosperity 4 taught me more about market microstructure, game theory, and decision-making under uncertainty than any class I've taken. I'm writing this up to consolidate the lessons for myself, help future Prosperity teams who might be starting from where I was three weeks ago, and share the journey with anyone curious about quant trading.
 
-This is mostly about **how we thought** about each problem, not just the final code. The judgment matters more than the implementation — and most of the writeups I found online focused on the latter.
+This is mostly about **how we thought** about each problem, not just the final code. The judgment matters more than the implementation — and most of the writeups I found online focused on the latter. -->
 
 ---
 
-## The competition in two paragraphs
+## Competition Overview
 
-IMC Prosperity is an annual algorithmic trading competition run by IMC Trading. Over five rounds and roughly three weeks, ~18,000 teams design Python trading algorithms that compete in a simulated market environment. Each round introduces new products and mechanics: market making, statistical arbitrage, options pricing, exotic derivatives, and news-driven trading. Each round also features a manual challenge — typically a one-shot decision involving optimization, game theory, or interpreting unstructured information.
+IMC Prosperity is an annual algorithmic trading competition run by IMC Trading consisting of five rounds over roughly three weeks. Each round introduces new products and mechanics: market making, statistical arbitrage, options pricing, exotic derivatives, and news-driven trading. Each round also features a manual challenge — typically a one-shot decision involving optimization, game theory, or interpreting unstructured information. Rounds 1-2 are qualifying rounds in which teams aim to reach `200,000` XIREC to advance to the final rounds. The XIREC total resets after Round 2, so the final PnL and leaderboard depend only on Rounds 3-5.
 
-We finished with a **cumulative algorithmic profit of ~336,745 XIRECs** across Rounds 1–4, before a Round 5 stumble that I'll get into honestly below. Manual rounds added more on top. Our best round was Round 3 (options); our worst was Round 5 (50 products, regime change between backtest and live).
+This writeup contains our thought process and approach to each round as well as the results and any reflections. 
+
+| Round | Algorithmic PnL | Manual PnL | Overall PnL |
+|---|---:|---:|---:|
+| 1 | 83,953.00 | -47,500.00 | 36,453.00 |
+| 2 | 87,373.00 | 200,716.00 | 287,088.00 |
+| **Total (Rounds 1-2)** | **171,326.00** | **153,216.00** | **324,542.00** |
+| 3 | 95,400.00 | 76,809.00 | 172,209.00 |
+| 4 | 75,317.00 | -28,085.85 | 47,231.15 |
+| 5 | -5,298.00 | 98,397.00 | 93,099.00 |
+| **Final Total (Rounds 3-5)** | **165,419.00** | **147,120.15** | **312,539.15** |
 
 ---
 
