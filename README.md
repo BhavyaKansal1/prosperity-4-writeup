@@ -109,6 +109,10 @@ This was the biggest "this changes everything" moment of the competition. We dro
 
 Mark 67 was an informed trader. Mark 49 was a contrarian indicator that was wrong almost every time, which is its own form of signal. Mark 22 looked like a smart market maker exiting positions, which leaked information about where the next move was likely to come from.
 
+We developed a dashboard to visually see each of the Marks' orders and compare them against the subsequent price movement, which made it much easier to identify which counterparties were consistently informative. The image below shows Mark 67's activity from that dashboard.
+
+![Mark 67 dashboard view](images/Mark_67.png)
+
 **How we used the signals:** Adjusted the *passive quote fair value* only, never aggressive taking. The signals decayed over 15-20 ticks. We hard-capped VE position at 70 (we tested 150 in the web sandbox and it actually scored worse because of intraday volatility, sometimes the cap *is* the strategy).
 
 We also identified a structural vol-selling opportunity in OTM options (K=5300-5500): historical data showed VE rarely closes above 5,300, so those calls expired worthless ~95% of the time. Joined Mark 22's pattern of systematically selling them and collecting theta.
