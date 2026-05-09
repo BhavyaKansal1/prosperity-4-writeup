@@ -203,7 +203,7 @@ The objective of the final manual trading round was to maximize net profit by st
 
 **Identify market structure before strategy.** The biggest single-round wins came from correctly classifying products: ASH was mean-reverting, PEPPER was trending, Pebbles was constraint-bound, and Round 5's pairs were noise.
 
-**Conservative risk management is a strategy, not the absence of one.** Hard position caps prevented blowups in Round 4. "Do nothing unless signal is strong" *would have* prevented losses in Round 5.
+**Conservative risk management is a strategy, not the absence of one.** Hard position caps prevented blowups in Round 4. "Do nothing unless signal is strong" would've prevented losses in Round 5.
 
 **Backtest ≠ live, especially when data is limited.** Three days of training data, one day of testing. That's not enough for any strategy with more than a handful of parameters to hold up.
 
